@@ -29,11 +29,11 @@ A resolução foi feita utilizando o **Microsoft Edge**, seguindo os seguintes p
 
 ### 1. Acesso à Página
 
-Ao acessar o site, a página exibia uma tela de login solicitando usuário e senha, os quais eu não possuía. Não havia nenhum conteúdo útil visível além da página de login, então decidi inspecionar o código-fonte da página em busca de informações úteis.
+Ao acessar o site, a página exibia uma tela de login solicitando um usuário e uma senha, e eu não tinha nenhum deles. Não havia nenhum conteúdo na página além da página de login, então decidi inspecionar e acessar o código-fonte da página em busca de algumas informações úteis que poderia me ajudar a encontrar a flag.
 
 ### 2. Abertura das Ferramentas de Desenvolvedor
 
-No **Microsoft Edge**, cliquei com o botão direito sobre a página e selecionei **"Inspecionar"**. Em seguida:
+No **Microsoft Edge**, cliquei com o botão direito do mouse sobre a página e selecionei a opção **"Inspecionar"**. Após isso eu fui atrás de encontrar os cookies da página (já que imaginei que o enredo da questão seria uma dica para isso):
 
 - Acessei a aba **"Aplicativo"** (ou **"Application"**) dentro das ferramentas de desenvolvedor.
 - No menu lateral esquerdo, cliquei em **"Cookies"**.
@@ -41,7 +41,7 @@ No **Microsoft Edge**, cliquei com o botão direito sobre a página e selecionei
 
 ### 3. Análise e Edição do Cookie
 
-Nos cookies armazenados pelo site, encontrei uma entrada com o nome `logged_in` e valor `false`. Percebi que o site utilizava esse cookie para determinar se o usuário estava autenticado.
+Nos cookies armazenados pelo site, encontrei uma entrada com o nome `logged_in` e valor `false`. Percebi que o site utilizava esse cookie para determinar se o usuário estava autenticado na pagina de login.
 
 Então, editei o valor do cookie diretamente:
 
@@ -59,11 +59,3 @@ Após a alteração, pressionei `F5` para recarregar a página do site. Dessa ve
 ```text
 picoCTF{ch3ck_y0ur_c00k13s_93bfa82b}
 ```
-
----
-
-## Conclusão
-
-O desafio demonstrou como uma simples validação de login baseada em cookies pode ser facilmente burlada usando ferramentas disponíveis no próprio navegador. Ao alterar o valor de `logged_in` para `true`, a página entendeu que o usuário estava autenticado e revelou o conteúdo restrito — a receita e a flag.
-
----
