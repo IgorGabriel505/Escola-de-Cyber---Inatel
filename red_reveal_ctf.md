@@ -1,7 +1,7 @@
 
 # Red Reveal: Segredo em Vermelho
-**Resolvido por ChatGPT**  
-Este é um CTF baseado em **esteganografia por LSB (Least Significant Bit)** usando uma imagem aparentemente comum, mas com conteúdo escondido nos bits dos pixels.
+**Resolvido por @IgorGabriel505**  
+ Este é um CTF sobre Forensics
 
 ---
 
@@ -16,12 +16,10 @@ Este é um CTF baseado em **esteganografia por LSB (Least Significant Bit)** usa
 
 ## Descrição do Desafio
 
-Foi fornecida uma imagem chamada `red.png`, que visualmente aparentava ser apenas um quadrado totalmente vermelho. No entanto, o desafio sugeria que havia algo oculto, com dicas como:
+Foi fornecida uma imagem chamada `red.png`, que ao abri-la aparentava ser apenas um quadrado totalmente vermelho. No entanto, o desafio sugeria que havia algo oculto, com dicas como:
 
 > “A imagem parece pura, mas é?”  
 > “Verifique o nome do Facebook agora.”  
-
-A dica do Facebook fazia referência ao nome **Meta**, que poderia indicar um **jogo de palavras** ou simplesmente nos apontar para olhar "além da superfície" — ou seja, investigar os metadados ou conteúdos ocultos da imagem.
 
 ---
 
@@ -50,7 +48,7 @@ Com os bytes formados, tentamos convertê-los para texto e encontramos o seguint
 cGljb0NURntyM2RfMXNfdGgzX3VsdDFtNHQzX2N1cjNfZjByXzU0ZG4zNTVffQ==
 ```
 
-Esse conteúdo é claramente **Base64**. Decodificamos a string e obtivemos:
+Esse conteúdo é claramente **Base64**. Decodificamos a string por meio do site **'Base64'** e apareceu:
 
 ```
 picoCTF{r3d_1s_th3_ult1m4t3_cur3_f0r_54dn355_}
