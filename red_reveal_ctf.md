@@ -1,5 +1,5 @@
 
-# Red Reveal: Segredo em Vermelho
+# Red 
 **Resolvido por @IgorGabriel505**  
  Este é um CTF sobre Forensics
 
