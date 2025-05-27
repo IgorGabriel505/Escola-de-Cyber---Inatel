@@ -34,7 +34,7 @@ Ao acessar o site, a página exibia uma tela de login solicitando um usuário e 
 ### 2. Abertura das Ferramentas de Desenvolvedor
 
 No **Microsoft Edge**, cliquei com o botão direito do mouse sobre a página e selecionei a opção **"Inspecionar"**. Após isso eu fui atrás de encontrar os cookies da página (já que imaginei que o enredo da questão seria uma dica para isso):
-![Inspecionar](Imagens-cookies/1.png)
+![](Imagens-cookies/1.png)
 - Acessei a aba **"Aplicativo"** (ou **"Application"**) dentro das ferramentas de desenvolvedor.
 - No menu lateral esquerdo, cliquei em **"Cookies"**.
 - Dentro dele, selecionei o domínio: `http://verbal-sleep.picoctf.net:57968`.
@@ -42,18 +42,17 @@ No **Microsoft Edge**, cliquei com o botão direito do mouse sobre a página e s
 ### 3. Análise e Edição do Cookie
 
 Nos cookies armazenados pelo site, encontrei uma entrada com o nome `logged_in` e valor `false`. Percebi que o site utilizava esse cookie para determinar se o usuário estava autenticado na pagina de login.
-
+![](Imagens-cookies/2.png)
 Então, editei o valor do cookie diretamente:
 
 - Dei **dois cliques** sobre o valor `false`.
 - Alterei para `true`.
-
+![](Imagens-cookies/3.png)
 ### 4. Recarregamento da Página
 
 Após a alteração, pressionei `F5` para recarregar a página do site. Dessa vez, o conteúdo exibido foi diferente: o site mostrou a **receita secreta de cookies** e a **flag** do desafio.
-
 ---
-
+![](Imagens-cookies/4.png)
 ## Flag
 
 ```text
