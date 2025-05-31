@@ -30,7 +30,7 @@ A resolução foi feita utilizando o **Microsoft Edge**, seguindo os seguintes p
 ### 1. Acesso à Página
 
 Ao acessar o site, a página exibia uma tela de login solicitando um usuário e uma senha, e eu não tinha nenhum deles. Não havia nenhum conteúdo na página além da página de login, então decidi inspecionar e acessar o código-fonte da página em busca de algumas informações úteis que poderia me ajudar a encontrar a flag.
-![](Imagens_cookies/1.png)
+![](Imagens_Cookies/1.png)
 ### 2. Abertura das Ferramentas de Desenvolvedor
 
 No **Microsoft Edge**, cliquei com o botão direito do mouse sobre a página e selecionei a opção **"Inspecionar"**. Após isso eu fui atrás de encontrar os cookies da página (já que imaginei que o enredo da questão seria uma dica para isso):
