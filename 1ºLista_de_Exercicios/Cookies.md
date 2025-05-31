@@ -42,17 +42,17 @@ No **Microsoft Edge**, cliquei com o botão direito do mouse sobre a página e s
 ### 3. Análise e Edição do Cookie
 
 Nos cookies armazenados pelo site, encontrei uma entrada com o nome `logged_in` e valor `false`. Percebi que o site utilizava esse cookie para determinar se o usuário estava autenticado na pagina de login.
-![](Imagens-cookies/2.png)
+![](Imagens_Cookies/2.png)
 Então, editei o valor do cookie diretamente:
 
 - Dei **dois cliques** sobre o valor `false`.
 - Alterei para `true`.
-![](Imagens-cookies/3.png)
+![](Imagens_Cookies/3.png)
 ### 4. Recarregamento da Página
 
 Após a alteração, pressionei `F5` para recarregar a página do site. Dessa vez, o conteúdo exibido foi diferente: o site mostrou a **receita secreta de cookies** e a **flag** do desafio.
 ---
-![](Imagens-cookies/4.png)
+![](Imagens_Cookies/4.png)
 ## Flag
 
 ```text
