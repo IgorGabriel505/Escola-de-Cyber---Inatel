@@ -23,6 +23,8 @@ LinK: [http://verbal-sleep.picoctf.net:57968/](http://verbal-sleep.picoctf.net:5
 
 Ao acessar a página inicial, Se encontra um simples formulário solicitando um **nome de usuário** e uma **senha**.
 
+![](Imagens_Cookies/1.2.png)
+
 Como nenhuma credencial da senha ou do usuario nos foi dado para a resolução do ctf, eu tente inserir valores aleatórios nas credenciais, nisso fui redirecionado para uma página que informa **"Access Denied"**.
 
 Pelo nome do desafio já deixa a entender que ele terá haver com **"Cookies"**, sendo uma dica importante sobre onde deve ser procurado a Flag. 
