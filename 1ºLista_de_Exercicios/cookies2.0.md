@@ -1,8 +1,7 @@
 
 # Cookie Monster: Receita Secreta
-
-Solved by @[IgorGabriel505]  
-Este é um CTF sobre Cookies HTTP e Controle de Acesso em Aplicações Web.
+**Resolvido por @IgorGabriel505**  
+Este é um CTF sobre Cookies HTTP e *Controle de Acesso em Aplicações Web*.
 
 ---
 
@@ -16,7 +15,9 @@ Este é um CTF sobre Cookies HTTP e Controle de Acesso em Aplicações Web.
 
 ## Descrição do Desafio
 
-O desafio apresenta um site acessível pelo seguinte link:
+O desafio forneceu um link para o site chamado Cookie Monster, com a seguinte proposta:
+
+> "O Cookie Monster escondeu sua receita secreta de cookies em algum lugar do seu site. Sua missão é encontrá-la."
 
 LinK: [http://verbal-sleep.picoctf.net:57968/](http://verbal-sleep.picoctf.net:57968/)
 
@@ -31,10 +32,12 @@ Pelo nome do desafio já deixa a entender que ele terá haver com **"Cookies"**,
 ## Resolução do Desafio 
 
 ### Passo 1 — Acessar e Inspecionar os Cookies:
-No Google Crome, cliquei com o botão direito do mouse sobre a página e selecionei a opção "Inspecionar". Após isso eu fui atrás de encontrar os cookies da página (já que imaginei que o enredo da questão seria uma dica para isso):
+Pelo **Google Crome**, cliquei com o botão direito do mouse sobre a página e selecionei a opção "Inspecionar". Após isso eu fui atrás de encontrar os cookies da página (já que imaginei que o enredo da questão seria uma dica para isso):
+
 - Abri as **Ferramentas de Desenvolvedor** pelo botão inspecionar ou só apertando (F12).
 - Fui até a aba **"Application"** (ou "Aplicativo" dependendo do navegador).
 - Dentro da seção **Cookies**, localizei um cookie definido pelo site.
+  
 **Cookie:** cGljb0NURntjMDBrMWVfbTBuc3Rlcl9sMHZlc19jMDBraWVzXzZFODFGQzFFfQ%3D%3D
   
 O valor do cookie parecia uma string codificada. Pelo padrão dos caracteres (letras maiúsculas, minúsculas, números e símbolos), estava obivio que estava codificado em  **codificação Base64**.
@@ -43,7 +46,7 @@ O valor do cookie parecia uma string codificada. Pelo padrão dos caracteres (le
 
 ###  Passo 2 — Decodificar o Cookie
 
-- Copiei o valor do cookie com o comando Control C.
+- Copiei o valor do cookie com o comando *Control C*.
 - Acessei um site de decodificação Base64, sendo o:  
   [https://www.base64decode.org/](https://www.base64decode.org/)  
  
