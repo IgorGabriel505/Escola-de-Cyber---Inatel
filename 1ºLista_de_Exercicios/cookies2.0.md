@@ -28,25 +28,24 @@ No Google Crome, cliquei com o botão direito do mouse sobre a página e selecio
 - Fui até a aba **"Application"** (ou "Armazenamento" dependendo do navegador).
 - Dentro da seção **Cookies**, localizei um cookie definido pelo site.
 **Cookie:** cGljb0NURntjMDBrMWVfbTBuc3Rlcl9sMHZlc19jMDBraWVzXzZFODFGQzFFfQ%3D%3D
+  
 O valor do cookie parecia uma string codificada. Pelo padrão dos caracteres (letras maiúsculas, minúsculas, números e símbolos), estava obivio que estava codificado em  **codificação Base64**.
 
 ---
 
 ###  Passo 3 — Decodificar o Cookie
 
-- Copiei o valor do cookie.
-- Acessei um site de decodificação Base64, como:  
+- Copiei o valor do cookie com o comando Control C.
+- Acessei um site de decodificação Base64, sendo o:  
   [https://www.base64decode.org/](https://www.base64decode.org/)  
  
 
-- Ao decodificar, o resultado foi:
+- Ao decodificar, o valor decodificado desse conjunto de caractres foi:
 
 ```
 picoCTF{c00k1e_m0nster_l0ves_c00kies_6E81FC1E}
 ```
 
 ## Flag:
-
-```
 picoCTF{c00k1e_m0nster_l0ves_c00kies_6E81FC1E}
 ```
