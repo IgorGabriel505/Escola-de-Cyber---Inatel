@@ -56,5 +56,5 @@ Após a alteração, pressionei `F5` para recarregar a página do site. Dessa ve
 ## Flag
 
 ```text
-picoCTF{ch3ck_y0ur_c00k13s_93bfa82b}
+picoCTF{c00k1e_m0nster_l0ves_c00kies_6E81FC1E}
 ```
