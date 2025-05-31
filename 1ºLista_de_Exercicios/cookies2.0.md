@@ -33,7 +33,7 @@ Pelo nome do desafio já deixa a entender que ele terá haver com **"Cookies"**,
 ### Passo 1 — Acessar e Inspecionar os Cookies:
 No Google Crome, cliquei com o botão direito do mouse sobre a página e selecionei a opção "Inspecionar". Após isso eu fui atrás de encontrar os cookies da página (já que imaginei que o enredo da questão seria uma dica para isso):
 - Abri as **Ferramentas de Desenvolvedor** pelo botão inspecionar ou só apertando (F12).
-- Fui até a aba **"Application"** (ou "Armazenamento" dependendo do navegador).
+- Fui até a aba **"Application"** (ou "Aplicativo" dependendo do navegador).
 - Dentro da seção **Cookies**, localizei um cookie definido pelo site.
 **Cookie:** cGljb0NURntjMDBrMWVfbTBuc3Rlcl9sMHZlc19jMDBraWVzXzZFODFGQzFFfQ%3D%3D
   
