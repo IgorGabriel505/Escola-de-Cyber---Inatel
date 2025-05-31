@@ -10,7 +10,7 @@ This is a CTF about **Web Exploitation**, **Information Disclosure** and **Cooki
 
 O desafio apresenta um site acessível pelo seguinte link:
 
-🔗 [http://verbal-sleep.picoctf.net:57968/](http://verbal-sleep.picoctf.net:57968/)
+LinK: [http://verbal-sleep.picoctf.net:57968/](http://verbal-sleep.picoctf.net:57968/)
 
 Ao acessar a página inicial, encontramos um simples formulário solicitando um **nome de usuário** e uma **senha**.
 
