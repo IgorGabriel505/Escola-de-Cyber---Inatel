@@ -18,6 +18,8 @@
 
 Foi fornecida uma imagem chamada `red.png`, que ao abri-la aparentava ser apenas um quadrado totalmente vermelho. No entanto, o desafio sugeria que havia algo oculto, com dicas como:
 
+![](Imagens_RED/red.png)
+
 > “A imagem parece pura, mas é?”  
 > “Verifique o nome do Facebook agora.”  
 
