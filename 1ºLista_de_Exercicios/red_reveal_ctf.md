@@ -27,11 +27,11 @@ Foi fornecida uma imagem chamada `red.png`, que ao abri-la aparentava ser apenas
 
 ## Resolução do Desafio
 
-A resolução foi feita usando análise programática da imagem para extrair dados escondidos nos **bits menos significativos** de cada canal de cor.
+A resolução foi feita usando análise programática da imagem para extrair dados escondidos nos **bits menos significativos** de cada canal de cor da imagem.
 
 ### 1. Inspeção da Imagem
 
-- Abrindo a imagem `red.png` e verificando suas informações, percebemos que ela tinha dimensão `128x128` e continha **4 canais RGBA** (vermelho, verde, azul e alpha).
+- Abrindo a imagem `red.png` e verificando suas informações, percebe-se que ela tem uma dimensão de `128x128` e  **4 canais RGBA** (vermelho, verde, azul e alpha).
 
 ![](Imagens_RED/ima.png)
 
@@ -39,20 +39,23 @@ A resolução foi feita usando análise programática da imagem para extrair dad
 
 Cada canal (R, G, B, A) possui 8 bits por pixel. A técnica de esteganografia LSB utiliza o **último bit de cada canal** para armazenar dados ocultos.
 
-Foi feito o seguinte:
-- Extraíndo o **último bit de cada canal** (1 bit por canal, 4 bits por pixel).
-- Esses bits foram agrupados a cada 8, formando bytes.
+Fiz o seguinte:
+- Extraí o **último bit de cada canal** (1 bit por canal, 4 bits por pixel) pedindo para o **chatGPT** fazer isso para mim.
+- Esses bits eu agrupei em 8 por cada, formando bytes.
 - Os bytes foram unidos em uma sequência binária completa.
 
 ### 3. Decodificação do Conteúdo
 
-Com os bytes formados, convertemos para texto e encontramos o seguinte texto:
+Com os bytes formados, converti para texto e foi encontrado o seguinte texto:
 
 ```
 cGljb0NURntyM2RfMXNfdGgzX3VsdDFtNHQzX2N1cjNfZjByXzU0ZG4zNTVffQ==
 ```
 
-Esse conteúdo é claramente codificado em **Base64**. Decodificamos a string por meio do site **'Base64'** e apareceu:
+Esse conteúdo é claramente codificado em **Base64**. Com isso Decodifiquei o texto por meio do site **'Base64'** :   [https://www.base64decode.org/](https://www.base64decode.org/) 
+e apareceu:
+
+![](Imagens_RED/ct.png)
 
 ```
 picoCTF{r3d_1s_th3_ult1m4t3_cur3_f0r_54dn355_}
