@@ -33,6 +33,8 @@ A resolução foi feita usando análise programática da imagem para extrair dad
 
 - Abrindo a imagem `red.png` e verificando suas informações, percebemos que ela tinha dimensão `128x128` e continha **4 canais RGBA** (vermelho, verde, azul e alpha).
 
+![](Imagens_RED/ima.png)
+
 ### 2. Extração dos Bits LSB
 
 Cada canal (R, G, B, A) possui 8 bits por pixel. A técnica de esteganografia LSB utiliza o **último bit de cada canal** para armazenar dados ocultos.
