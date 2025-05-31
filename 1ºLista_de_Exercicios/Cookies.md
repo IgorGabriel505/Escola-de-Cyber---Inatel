@@ -34,7 +34,7 @@ Ao acessar o site, a página exibia uma tela de login solicitando um usuário e 
 ### 2. Abertura das Ferramentas de Desenvolvedor
 
 No **Microsoft Edge**, cliquei com o botão direito do mouse sobre a página e selecionei a opção **"Inspecionar"**. Após isso eu fui atrás de encontrar os cookies da página (já que imaginei que o enredo da questão seria uma dica para isso):
-![](Imagens_cookies/1.png)
+
 - Acessei a aba **"Aplicativo"** (ou **"Application"**) dentro das ferramentas de desenvolvedor.
 - No menu lateral esquerdo, cliquei em **"Cookies"**.
 - Dentro dele, selecionei o domínio: `http://verbal-sleep.picoctf.net:57968`.
