@@ -40,7 +40,7 @@ A resolução foi feita usando análise programática da imagem para extrair dad
 Cada canal (R, G, B, A) possui 8 bits por pixel. A técnica de esteganografia LSB utiliza o **último bit de cada canal** para armazenar dados ocultos.
 
 Fiz o seguinte:
-- Extraí o **último bit de cada canal** (1 bit por canal, 4 bits por pixel) pedindo para o **chatGPT** fazer isso para mim.
+- Pedi para o **ChatGPT** extraír o **último bit de cada canal** (1 bit por canal, 4 bits por pixel).
 - Esses bits eu agrupei em 8 por cada, formando bytes.
 - Os bytes foram unidos em uma sequência binária completa.
 
