@@ -1,12 +1,20 @@
 
-# PicoCTF - Cookies
+# Cookie Monster: Receita Secreta
 
 Solved by @[IgorGabriel505]  
-This is a CTF about **Web Exploitation**, **Information Disclosure** and **Cookie Manipulation**.
+Este é um CTF sobre Cookies HTTP e Controle de Acesso em Aplicações Web.
 
 ---
 
-## About the Challenge
+## Temas Envolvidos
+
+- Manipulação de cookies HTTP  
+- Falhas de autenticação baseadas no lado do cliente  
+- Ferramentas de desenvolvedor do navegador (Microsoft Edge)
+
+---
+
+## Descrição do Desafio
 
 O desafio apresenta um site acessível pelo seguinte link:
 
@@ -20,7 +28,7 @@ Pelo nome do desafio já deixa a entender que ele terá haver com **"Cookies"**,
 
 ---
 
-## Solution :
+## Resolução do Desafio 
 
 ### Passo 1 — Acessar e Inspecionar os Cookies:
 No Google Crome, cliquei com o botão direito do mouse sobre a página e selecionei a opção "Inspecionar". Após isso eu fui atrás de encontrar os cookies da página (já que imaginei que o enredo da questão seria uma dica para isso):
