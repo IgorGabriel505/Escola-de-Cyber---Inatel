@@ -33,7 +33,7 @@ O valor do cookie parecia uma string codificada. Pelo padrão dos caracteres (le
 
 ---
 
-###  Passo 3 — Decodificar o Cookie
+###  Passo 2 — Decodificar o Cookie
 
 - Copiei o valor do cookie com o comando Control C.
 - Acessei um site de decodificação Base64, sendo o:  
