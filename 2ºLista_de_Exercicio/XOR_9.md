@@ -37,7 +37,7 @@ Este exercício aborda a aplicação da operação *XOR bit a bit em caracteres 
 ### Passo 3 — 
 
 
-```
+
 
 ---
 
