@@ -9,7 +9,7 @@ Este é um CTF sobre Cookies HTTP e *Controle de Acesso em Aplicações Web*.
 
 - Manipulação de cookies HTTP  
 - Falhas de autenticação baseadas no lado do cliente  
-- Ferramentas de desenvolvedor do navegador (Microsoft Edge)
+- Ferramentas de desenvolvedor do navegador (Google Crome)
 
 ---
 
