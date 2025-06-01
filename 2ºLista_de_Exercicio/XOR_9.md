@@ -30,6 +30,7 @@ Antes de buscar qual era a chave que criptografou a string em XOR eu teria que d
 
 Para isso fui atras de um site que descriptografava strings em hexadecimal para assim depois continuar a resolução do desafio.
 
+
 **String dada:** 73626960647f6b206821204f21254f7d694f7624662065622127234f726927756d
 
 **Site Utilizado:**  [https://pt.rakko.tools/tools/77/](https://pt.rakko.tools/tools/77/)
