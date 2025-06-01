@@ -48,9 +48,11 @@ Após ter descriptografado a string que estava em hexadecimal eu já poderia des
 Após descriptografar o string que estava em hexadecimal eu fui atrás de algum programa que desgriptografa qualquer *string* com uma *chave (key)* em XOR.
 
 Procurando na web pelo navegador **Google Crome** eu encontrei um *projeto no github (em Python)* onde ele justamente faz essa operação XOR.
+
 Projeto do github:   [https://cryptools.github.io/XORCipher/](https://cryptools.github.io/XORCipher/)
 
 Após ter baixado o código do projeto do github eu abri um **site que copila códigos em python** e colei o programa nele.
+
 **site utilizado:** [https://www.mycompiler.io/pt/new/python](https://www.mycompiler.io/pt/new/python)
 
 ![](xor9/c.png)
@@ -67,8 +69,16 @@ Para aplicar a função que executa a **operação XOR** para eu descriptografar
 
 ### Passo 3 — Identificação da chave correta e extração da flag
 
+Para encontrar a **flag** eu teria que testar *chave por chave* no texto descriptografado em hexadecimal começando de **1 até 256** até encontrar a flag *escondida* em uma dessas chaves.
 
+O padrão da estrutura das flags dos desafios do site **Cripto Hack** é a estrutura: *crypto{}* , com isso eu saberia quando eu encontrase a flag correta descriptografando a string com diferentes chaves.
 
+**Testando começando primeiro com o valor de chave = 1:**
+![](xor9/e.png)
+
+Após muitas tentativas eu encontrei qual é o valor de *chave que criptografou a string*, o valor dela era **16**, assim encontrando a **FLAG**.
+
+![](xor9/f.png)
 
 ---
 
