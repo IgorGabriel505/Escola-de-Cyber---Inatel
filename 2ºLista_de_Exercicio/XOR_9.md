@@ -36,6 +36,10 @@ Para isso fui atras de um site que descriptografava strings em hexadecimal para 
 
 ![](xor9/b.png)
 
+Após ter descriptografado a string que estava em hexadecimal eu já poderia descobrir qual é a chave em hexadecimal para encontrar a string original.
+
+**String descriptografada em hexadecimal:** sbi`dk h! O!%O}iOv$f eb!'#Ori'um
+
 ---
 
 ### Passo 2 — Aplicação de XOR com todas as chaves possíveis
