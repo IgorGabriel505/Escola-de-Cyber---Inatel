@@ -41,5 +41,5 @@ site utilizado: [https://www.mycompiler.io/pt/new/python](https://www.mycompiler
 ---
 
 ## Flag:
-crypto{ynory}
+crypto{aloha}
 ```
