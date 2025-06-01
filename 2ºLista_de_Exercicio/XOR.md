@@ -30,15 +30,25 @@ Procurando na web pelo navegador Google Crome eu encontrei um projeto no github 
 
 Projeto do github:   [https://cryptools.github.io/XORCipher/](https://cryptools.github.io/XORCipher/)  
 
-Após ter baixado o codigo do projeto do github eu abri um site que copila codigos em python e colei ele por lá.
+Após ter baixado o codigo do projeto do github eu abri um site que copila códigos em python e colei o programa nele.
 site utilizado: [https://www.mycompiler.io/pt/new/python](https://www.mycompiler.io/pt/new/python)
+
+![](Imagens_label/2.png)
 
 
 ### 2. Aplicar a função na string `"label"` com a chave 13
 
+Para aplicar a função que executa a operação XOR eu deveria colocar os valores da string label e da chave 13 (key) como variaveis para eles serão executadadas dentro da função.
+
+- Criei as variaveis label e key com os respectivos valores (label, 13)
+- Executei a função XOR com os valores das variaveis que criei
+- Executei um comando em que imprimia na tela o resultado da criptografia
+
+![](Imagens_label/3.0.png)
+
 ### 3. Exibir a flag com o resultado obtido
 
----
+```
 
 ## Flag:
 crypto{aloha}
