@@ -45,8 +45,24 @@ Após ter descriptografado a string que estava em hexadecimal eu já poderia des
 
 ### Passo 2 — Aplicação de XOR com todas as chaves possíveis
 
-<!-- Descreva a segunda etapa da resolução -->
+Após descriptografar o string que estava em hexadecimal eu fui atrás de algum programa que desgriptografa qualquer *string* com uma *chave (key)* em XOR.
 
+Procurando na web pelo navegador **Google Crome** eu encontrei um *projeto no github (em Python)* onde ele justamente faz essa operação XOR.
+Projeto do github:   [https://cryptools.github.io/XORCipher/](https://cryptools.github.io/XORCipher/)
+
+Após ter baixado o código do projeto do github eu abri um **site que copila códigos em python** e colei o programa nele.
+**site utilizado:** [https://www.mycompiler.io/pt/new/python](https://www.mycompiler.io/pt/new/python)
+
+![](xor9/c.png)
+
+Para aplicar a função que executa a **operação XOR** para eu descriptografar oque eu queria eu deveria criar uma variavel *string* com o valor da *string descriptografada* e uma outra variavel *int* com algum numero *( de 1 a 256 )* *(sendo respectivamente a palavra que eu quero descriptografar e a chave em que foi criptografada)*.
+
+- Criei as variaveis que serão a **string descriptografada** e o valor da chave que irei testar (até encontrar a flag).
+- Executei a função que **descriptografa em XOR** com os valores das variaveis que criei.
+- Executei um comando em que **imprimia na tela** o resultado da descriptografia.
+
+![](xor9/d.png)
+  
 ---
 
 ### Passo 3 — Identificação da chave correta e extração da flag
