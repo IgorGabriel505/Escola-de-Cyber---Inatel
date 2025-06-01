@@ -36,20 +36,7 @@ Este exercício aborda a aplicação da operação *XOR bit a bit em caracteres 
 
 ### Passo 3 — 
 
-<!-- Descreva a terceira etapa da resolução -->
 
-```python
-# Exemplo de código para XOR (coloque aqui seu código usado)
-def decrypt_xor_bytes(data: bytes, key: int) -> str:
-    output = bytes([b ^ key for b in data])
-    return output.decode('utf-8', errors='ignore')
-
-encrypted_hex = "73626960647f6b206821204f21254f7d694f7624662065622127234f726927756d"
-encrypted_bytes = bytes.fromhex(encrypted_hex)
-key = 16
-
-decrypted = decrypt_xor_bytes(encrypted_bytes, key)
-print("Texto decodificado:", decrypted)
 ```
 
 ---
@@ -57,5 +44,5 @@ print("Texto decodificado:", decrypted)
 ## Flag:
 
 ```
-crypto{aloha}
+crypto{0x10_15_my_f4v0ur173_by7e}
 ```
