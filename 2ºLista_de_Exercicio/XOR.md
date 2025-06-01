@@ -40,15 +40,6 @@ site utilizado: [https://www.mycompiler.io/pt/new/python](https://www.mycompiler
 
 ---
 
-## Resultado
-
-- Entrada: `"label"`
-- Saída após XOR com chave 13: `"ynory"`
-- Flag final exibida:  
-
-```
+## Flag:
 crypto{ynory}
 ```
-
----
-
