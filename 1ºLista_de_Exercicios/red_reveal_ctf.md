@@ -29,13 +29,13 @@ Foi fornecida uma imagem chamada `red.png`, que ao abri-la aparentava ser apenas
 
 A resolução foi feita usando análise programática da imagem para extrair dados escondidos nos **bits menos significativos** de cada canal de cor da imagem.
 
-### 1. Inspeção da Imagem
+### 1 — Inspeção da Imagem
 
 - Abrindo a imagem `red.png` e verificando suas informações, percebe-se que ela tem uma dimensão de `128x128` e  **4 canais RGBA** (vermelho, verde, azul e alpha).
 
 ![](Imagens_RED/ima.png)
 
-### 2. Extração dos Bits LSB
+### 2 — Extração dos Bits LSB
 
 Cada canal (R, G, B, A) possui 8 bits por pixel. A técnica de esteganografia LSB utiliza o **último bit de cada canal** para armazenar dados ocultos.
 
@@ -44,7 +44,7 @@ Fiz o seguinte:
 - Esses bits eu agrupei em 8 por cada, formando bytes.
 - Os bytes foram unidos em uma sequência binária completa.
 
-### 3. Decodificação do Conteúdo
+### 3 — Decodificação do Conteúdo
 
 Com os bytes formados, converti para texto e foi encontrado o seguinte texto:
 
