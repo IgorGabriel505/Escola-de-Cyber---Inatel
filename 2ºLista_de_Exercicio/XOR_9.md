@@ -16,8 +16,7 @@ Este exercício aborda a aplicação da operação *XOR bit a bit em caracteres 
 
 ## Descrição do Exercício
 
-<!-- Coloque aqui o enunciado completo do desafio -->
-
+Foi fornecida uma string em hexadecimal que representa dados criptografados com uma única chave de 1 byte usando a operação XOR. A tarefa consiste em descobrir qual byte foi usado e recuperar a mensagem original.
 ---
 
 ## Resolução do Desafio
