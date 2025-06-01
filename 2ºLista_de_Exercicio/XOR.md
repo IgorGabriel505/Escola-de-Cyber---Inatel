@@ -31,6 +31,7 @@ Procurando na web pelo navegador **Google Crome** eu encontrei um *projeto no gi
 
 Projeto do github:   [https://cryptools.github.io/XORCipher/](https://cryptools.github.io/XORCipher/)  
 
+
 Após ter baixado o cÓdigo do projeto do github eu abri um **site que copila códigos em python** e colei o programa nele.
 **site utilizado:** [https://www.mycompiler.io/pt/new/python](https://www.mycompiler.io/pt/new/python)
 
@@ -55,7 +56,7 @@ Para aplicar a função que executa a **operação XOR** para eu descriptografar
 Após isso foi só executar o programa que ele já **descriptografava** a string *label* utilizando a chave *13*, e assim encontrando a palavra **aloha** que provavelmente seria a **FLAG**.
 
 ![](Imagens_label/3.png)
-
+```
 ---
 
 ```
