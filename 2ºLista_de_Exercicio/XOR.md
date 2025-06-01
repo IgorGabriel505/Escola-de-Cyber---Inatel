@@ -7,7 +7,7 @@ Este exercício aborda a aplicação da operação *XOR bit a bit em caracteres 
 
 ## Temas Envolvidos
 
-- Operação lógica XOR (OU exclusivo)  
+- Operação lógica XOR  
 - Manipulação de strings e caracteres Unicode  
 - Conversão entre caracteres e seus códigos inteiros Unicode  
 - Cifração baseada em XOR
