@@ -32,7 +32,7 @@ Procurando na web pelo navegador **Google Crome** eu encontrei um *projeto no gi
 Projeto do github:   [https://cryptools.github.io/XORCipher/](https://cryptools.github.io/XORCipher/)  
 
 
-Após ter baixado o cÓdigo do projeto do github eu abri um **site que copila códigos em python** e colei o programa nele.
+Após ter baixado o código do projeto do github eu abri um **site que copila códigos em python** e colei o programa nele.
 **site utilizado:** [https://www.mycompiler.io/pt/new/python](https://www.mycompiler.io/pt/new/python)
 
 ![](Imagens_label/2.png)
