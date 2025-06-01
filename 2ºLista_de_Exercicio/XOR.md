@@ -25,7 +25,14 @@ O desafio me forneceu uma string chamada **label** onde eu deveria utilizando a 
 ## Resolução do Desafio
 
 ### Passo 1 — Definir a função que aplica XOR em cada caractere
-Para
+Para resolver esse desafio eu fui atras de algum programa onde eu poderia inserir uma string e a chave (key) e rescrevese em XOR.
+Procurando na web pelo navegador Google Crome eu encontrei um projeto no github (em Python) onde ele justamente faz essa operação XOR.
+
+Projeto do github:   [https://cryptools.github.io/XORCipher/](https://cryptools.github.io/XORCipher/)  
+
+Após ter baixado o codigo do projeto do github eu abri um site que copila codigos em python e colei ele por lá.
+site utilizado: [https://www.mycompiler.io/pt/new/python](https://www.mycompiler.io/pt/new/python)
+
 
 ### 2. Aplicar a função na string `"label"` com a chave 13
 
